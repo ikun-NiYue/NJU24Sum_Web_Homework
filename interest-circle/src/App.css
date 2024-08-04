@@ -1,0 +1,94 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+.HomePage{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  left: calc(10%+50px);
+  width: calc(70vw);
+  height: 100%;
+  border: 3px solid lightpink;
+  background: seashell;
+}
+.topNav{
+  background-color:antiquewhite;
+  position: fixed;
+  top: 0px;
+  width: auto;
+}
+.topNav ul{
+  margin: 0;
+  padding: 0;
+  list-style-type:none;
+  overflow: hidden;
+}
+.topNav li{
+  float: left;
+  align-items: center;
+  text-decoration: none;
+}
+.topNav h2{
+  margin: 0;
+  padding:0;
+  display: flex;
+  font-size: 30px;
+  width:auto;
+}
+.topNav button{
+  margin: 0;
+  padding:0;
+  font-size: 30px;
+  width:calc(10vw);
+  text-align: center;
+  padding:0px 10px;
+  background-color:antiquewhite;
+  color:black;
+}
+.topNav button:hover{
+  background-color:#ff80bf;
+  color: white;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  div:nth-of-type(1) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}

@@ -1,0 +1,17 @@
+
+[  
+  {  
+    "id": "1",  
+    "name": "test",  
+    "description": "芝士煙燻雞肉",  
+    "creator": "11",
+    "numTotalMembers": 1,
+    "numTotalOnline": 0,
+    "members": [
+      {
+        "username": "11",
+        "isOnline": false
+      }
+    ]
+  }
+]
